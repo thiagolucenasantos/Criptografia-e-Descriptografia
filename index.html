@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho_logo">
+            <a href="index.html"><img class="cabecalho_logo_img" src="assets/Logo.png" alt="logo alura"></a>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <div class="conteudo_texto">
+            <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Digite o texto desejado!!"></textarea>
+            <div class="conteudo_texto_botoes">
+                <button class="conteudo_botao_crip" onclick="criptografar()">Criptografar</button>
+                <button class="conteudo_botao_descrip"
+                    onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </div>
+        <div class="conteudo_output">
+            <p id="output_campo_texto"></p>
+            <div id="output"><img class="output_img_placeholder" src="assets/High quality products 1 1.png"
+                    alt="Nenhuma mensagem encontrada">
+                <h1 class="output_mensagem_placeholder">Nenhuma mensagem <br>encontrada.</h1>
+            </div>
+
+            <div>
+                <button class="botao_copiar" onclick="copiarMensagem()">Copiar</button>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="rodape">
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
